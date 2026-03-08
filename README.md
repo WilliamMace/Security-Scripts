@@ -43,7 +43,7 @@ Security-Scripts/
 | Script | Description | Status |
 |--------|-------------|--------|
 | CVE Lookup Tool | Queries NVD for CVE details and risk scoring | Complete |
-| NIST 800-53 Report Generator | Generates compliance reports mapped to NIST controls | Planned |
+| NIST 800-53 Report Generator | Generates compliance reports mapped to NIST controls | Complete |
 | Vulnerability Scanner | Basic network vulnerability assessment tool | Planned |
 | Log Parser | Parses and correlates security logs from multiple sources | Planned |
 
