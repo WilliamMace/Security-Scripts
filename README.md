@@ -17,10 +17,10 @@ Security-Scripts/
 |   |-- network-security/       # Network scanning and monitoring
 |
 |-- python/
+|   |-- cve-lookup/             # CVE lookup and risk scoring tool
 |   |-- vulnerability-scanner/  # Basic vulnerability assessment tools
 |   |-- compliance-reporting/   # NIST 800-53 compliance report generation
 |   |-- log-parser/             # Security log parsing and analysis
-|   |-- threat-intel/           # Threat intelligence feed integration
 |
 |-- docs/
 |   |-- setup-guides/           # Environment setup documentation
@@ -33,7 +33,7 @@ Security-Scripts/
 
 | Script | Description | Status |
 |--------|-------------|--------|
-| STIG Compliance Checker | Automates DISA STIG compliance checks for Windows systems | Planned |
+| STIG Compliance Checker | Automates DISA STIG compliance checks for Windows systems | Complete |
 | Event Log Analyzer | Parses Windows Security event logs for suspicious activity | Planned |
 | AD Security Audit | Audits Active Directory for security misconfigurations | Planned |
 | Firewall Rule Reviewer | Reviews and validates Windows Firewall rules | Planned |
@@ -42,10 +42,10 @@ Security-Scripts/
 
 | Script | Description | Status |
 |--------|-------------|--------|
+| CVE Lookup Tool | Queries NVD for CVE details and risk scoring | Complete |
 | NIST 800-53 Report Generator | Generates compliance reports mapped to NIST controls | Planned |
 | Vulnerability Scanner | Basic network vulnerability assessment tool | Planned |
 | Log Parser | Parses and correlates security logs from multiple sources | Planned |
-| CVE Lookup Tool | Queries NVD for CVE details and risk scoring | Planned |
 
 ## Frameworks and Standards
 
